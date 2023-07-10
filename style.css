@@ -1,13 +1,59 @@
+/* common */
 *{
     padding: 0;
     margin: 0;
 }
-.header-banner {
+.flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     background: rgba(229, 84, 115, 0.10);
-
 }
-header-about {
+/* header */
+.header-info {
     display: block;
+    padding-left: 8vw;
+    color: rgb(61, 59, 59);
+    
+}
+.header-title {
+    font-size: 6vw;
+    font-weight: 800;
+    
+}
+.header-info p{
+    padding-top: 2vw;
+}
+.cmn-btn{
+    background: #E55473;
+    border: none;
+    border-radius: .5vw;
+    padding: 1vw 2vw;
+    margin-top: 2vw;
+}
+.header-img {
+   width: 23vw;
+   height: 40vw;
+   padding-right: 8vw;
+}
+/* featured */
+
+/* hot deal */
+.deal-info{
+    display: block;
+    text-align: center;
+    padding-left: 8vw;
+}
+.deal-info > h3{
+    font-size: 3vw;
+    font-weight: 700;
+}
+.deal-info span {
+    color: #E55473;
+}
+.hot-img{
+    width: 15vw;
+    height: 20vw;
+    padding-right: 8vw;
 }
