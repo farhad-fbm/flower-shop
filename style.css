@@ -64,3 +64,29 @@
     height: 20vw;
     padding-right: 8vw;
 }
+
+/* intagram */
+.instagram {
+    padding: 10vw 0 3vw 0;
+    text-align: center;
+
+}
+.instagram > h3{
+    font-size: 4vw;
+}
+.instagram > p {
+    font-size: 1vw;
+    padding-top: 2vw;
+}
+.insta-flex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 1vw;
+
+}
+.insta-img{
+    width: 19vw;
+    height: 23vw;
+}
