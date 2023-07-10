@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-banner {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+header-about {
+    display: block;
+}
