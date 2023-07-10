@@ -24,6 +24,7 @@
 }
 .header-info p{
     padding-top: 2vw;
+    font-size: 1vw;
 }
 .cmn-btn{
     background: #E55473;
@@ -51,6 +52,9 @@
 }
 .deal-info span {
     color: #E55473;
+}
+.deal-info p {
+    font-size: 1vw;
 }
 .hot-img{
     width: 15vw;
