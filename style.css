@@ -24,11 +24,7 @@
 .cmn-btn:hover{
     background: #984658;
     cursor: pointer;
-    border: 1px solid #E55473;
     border-radius: 0;
-    padding: 1vw 2vw;
-    margin-top: 2vw;
-    font-size: 1.5em;
 }
 /* navber */
 nav{
@@ -230,12 +226,13 @@ span {
 }
 .input-box{
     border: none;
-    padding: 1vw;
+    padding: 1.2vw;
     margin-right: 1vw;
     width: 30vw;
 }
 .input-box:hover{
-    border: 1px solid #E55473;
+    border: 0.2vw solid #E55473;
+    padding: 1vw;
     
 }
 
