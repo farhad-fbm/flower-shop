@@ -13,6 +13,14 @@
     align-content: center;
     background: rgba(229, 84, 115, 0.10);
 }
+.cmn-btn{
+    background: #E55473;
+    border: none;
+    border-radius: .5vw;
+    padding: 1vw 2vw;
+    margin-top: 2vw;
+    color:white
+}
 /* header */
 .header-info {
     display: block;
@@ -21,24 +29,17 @@
     
 }
 .header-title {
-    font-size: 4.5vw;
+    font-size: 4vw;
     font-weight: 800;
     
 }
 .header-info p{
     padding-top: 2vw;
 }
-.cmn-btn{
-    background: #E55473;
-    border: none;
-    border-radius: .5vw;
-    padding: 1vw 2vw;
-    margin-top: 2vw;
-}
 .header-img {
    width: 23vw;
    height: 40vw;
-   padding-right: 8vw;
+   padding-right: 9vw;
 }
 /* featured */
 
@@ -65,7 +66,7 @@
     padding-right: 8vw;
 }
 
-/* intagram */
+/* instagram */
 .instagram {
     padding: 10vw 0 3vw 0;
     text-align: center;
@@ -83,10 +84,39 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    gap: 1vw;
+    gap: 1.2vw;
 
 }
 .insta-img{
-    width: 19vw;
-    height: 23vw;
+    width: 18vw;
+    height: 21vw;
 }
+
+
+/* subscribe section */
+.subscribe-section{
+    width: 70vw;
+    height: 15vw;
+    text-align: center;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+    margin: 5vw auto;
+
+}
+.subscribe-section h3{
+    font-size: 3vw;
+    font-weight: 800;
+}
+.subscribe-section p{
+    font-size: 1vw;
+}
+.input-box{
+    border: none;
+    padding: 1vw;
+    margin-right: 1vw;
+    width: 30vw;
+}
+
+
