@@ -21,6 +21,15 @@
     margin-top: 2vw;
     color:white
 }
+.cmn-btn:hover{
+    background: #984658;
+    cursor: pointer;
+    border: 1px solid #E55473;
+    border-radius: 0;
+    padding: 1vw 2vw;
+    margin-top: 2vw;
+    font-size: 1.5em;
+}
 /* header */
 .header-info {
     display: block;
